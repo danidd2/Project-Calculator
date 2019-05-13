@@ -22,16 +22,16 @@ public class ComControll
      */
     Archive output;
     /**
-     * The Entity Manager
+     * The Entity Manager.
      */
     EntityManager entityManager;
     /**
-     * EM factory
+     * EM factory.
      */
     EntityManagerFactory emf;
 
     /**
-     * Creates the Entity Managger
+     * Creates the Entity Managger.
      */
     public ComControll()
     {

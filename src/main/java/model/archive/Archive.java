@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 /**
- * Contains the informations to be saved in the database
+ * Contains the informations to be saved in the database.
  */
 @Data
 @NoArgsConstructor

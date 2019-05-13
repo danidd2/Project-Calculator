@@ -2,16 +2,25 @@ package model.calculate;
 
 import java.math.BigInteger;
 
+/**
+ * Extended Euclides calculator.
+ */
 public class Eucledes
 {
+    /**
+     * The three results.
+     */
     public BigInteger x, y, gcd;
 
+    /**
+     * Empty constructor.
+     */
     public Eucledes()
     {
     }
 
     /**
-     * Runs an extended euclidian algorithm and saves tem into a Euclides object
+     * Runs an extended euclidian algorithm and saves tem into a Euclides object.
      * @param a the first number
      * @param b the second number
      * @return an {@link Eucledes} object containing the results in the x and y variables
@@ -47,14 +56,24 @@ public class Eucledes
         return result;
     }
 
+    /**
+     * Getter.
+     * @return gives back one of the results
+     */
     public BigInteger getX() {
         return x;
     }
-
+    /**
+     * Getter.
+     * @return gives back one of the results
+     */
     public BigInteger getY() {
         return y;
     }
-
+    /**
+     * Greatest common divider.
+     * @return gives back one of the results
+     */
     public BigInteger getGcd() {
         return gcd;
     }

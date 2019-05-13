@@ -7,7 +7,7 @@ import view.FxApp;
  */
 public class Main {
     /**
-     * Main void
+     * Main void.
      * @param args arguments
      */
     public static void main(String[] args) {
