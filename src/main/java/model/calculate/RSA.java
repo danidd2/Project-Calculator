@@ -34,7 +34,7 @@ public class RSA
      */
     public String rsaCore(String massage)
     {
-        int size = 512;
+        int size = 1024;
         log.info("Searching for the first prime");
         BigInteger prime1 = bigPrimeFinder(size);
         log.info("Firt prime found " + prime1);
@@ -169,5 +169,20 @@ public class RSA
         BigInteger temp = massage;
         temp = modPower.modpower(temp,decrypter,n);
         return temp;
+    }
+
+    private BigInteger chichinese(BigInteger p, BigInteger q,BigInteger massage,BigInteger decrypter)
+    {
+        BigInteger ret;
+        BigInteger c1 = modPower.modpower(massage,decrypter.mod(p.mod(p.subtract(BigInteger.ONE))),p);
+        BigInteger c2 = modPower.modpower(massage,decrypter.mod(q.mod(q.subtract(BigInteger.ONE))),q);
+        BigInteger M = p.multiply(q);
+        BigInteger M1 = q;
+        BigInteger M2 = p;
+        Eucledes result  = eucledes.calculate(q,p);
+        BigInteger y1 = result.getX();
+        BigInteger y2 = result.getX();
+        ret = c1.multiply(y1).multiply(M1).add(c2.multiply(y2).multiply(M2).mod(M));
+        return ret;
     }
 }

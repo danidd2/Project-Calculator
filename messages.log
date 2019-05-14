@@ -1,8 +1,590 @@
-23:08:42.718 [main] INFO  model.calculate.RSA - Searching for the first prime
-23:08:44.016 [main] INFO  model.calculate.RSA - Firt prime found 11049187610077264845641008825320329210649986875017509845726155106939493726798210530343957721869999700420689960317905560138890012723574814923043582270809651
-23:08:44.017 [main] INFO  model.calculate.RSA - Searching for the second prime
-23:08:44.678 [main] INFO  model.calculate.RSA - Second prime found 2657875437816517105017146357340412011069914224618063172684508844912710621535959563814114658627396869070544859506723310532950878989928300779573083423961499
-23:08:44.684 [main] INFO  model.calculate.RSA - Fn 29367364356650946585544444313883832816732296431269706719234065951889891523963117391877025028739028448248957159016394263385690458699779640891372698144792063590837753720710902678025177483111504842464448438488240549029675885971595383752016648409783654960822342217891206857244063862768072160531615469650886855700 n 29367364356650946585544444313883832816732296431269706719234065951889891523963117391877025028739028448248957159016394263385690458699779640891372698144792077297900801614492853336180360143852726562365548074061258959693627738175943717922110806482164152357391833452711031486114735703659785663647318086316581626849
-23:08:44.685 [main] INFO  model.calculate.RSA - Creating the encrypter
-23:08:44.687 [main] INFO  model.calculate.RSA - Creating the decrypter
-23:08:44.690 [main] INFO  model.calculate.RSA - Both the necrypter and decrypter are ready to use
+09:15:40.349 [JavaFX Application Thread] INFO  model.calculate.RSA - Searching for the first prime
+09:15:58.020 [JavaFX Application Thread] INFO  model.calculate.RSA - Firt prime found 128099895034556634521132681818369552262067748291247268898590445231825390910213831236835507564730458041347355590856198131525449715293436299080434785141677206157533310014674969598700309846432368573147136738711413308715239703806976960482390074647753117086023562772719107968651507544351964349001961903789964295789
+09:15:58.020 [JavaFX Application Thread] INFO  model.calculate.RSA - Searching for the second prime
+09:16:13.261 [JavaFX Application Thread] INFO  model.calculate.RSA - Second prime found 31089751446065938881018633194629337203167207788593082603458649595653783307954376901119545521997937233256837801518456398624739364400034738740570380079885885619298696455299424040886635149315947568453622963048460794786848470468012483184119776223579107552639920207327242223561220584740054965784660919331005985157
+09:16:13.266 [JavaFX Application Thread] INFO  model.calculate.RSA - Fn 3982593896891502111809461343208138716835705805150819630119349148044394331869174807290739216510752636295100323316415647430055048720238616243142249748266867869203005911240464524834181429321917095143197759036376224104568321893612482580681298900779939677040867708512948913279165144078125957629931440452974259519437481513935703244774663439682900030918026481656520624973087404699729709915208900686901385488492588414552191920359695428741817339949185903044527039618840876558812629200543954366051043401202643125576541154744622553559082683348424052287716990006967100598706384648612758891809977638645560070978331005372721322928 n 3982593896891502111809461343208138716835705805150819630119349148044394331869174807290739216510752636295100323316415647430055048720238616243142249748266867869203005911240464524834181429321917095143197759036376224104568321893612482580681298900779939677040867708512948913279165144078125957629931440452974259519596671160416325818176814754695898920383261437736360976475136499527208884133377108824856438575220983689156385312734349958892006419642656940865532204840403968335644635670518348005637988396950959267177300856504496657061170857623413495954226840878299325237369867628659109084022705767737579385764953828493691603873
+09:16:13.266 [JavaFX Application Thread] INFO  model.calculate.RSA - Creating the encrypter
+09:16:13.267 [JavaFX Application Thread] INFO  model.calculate.RSA - Creating the decrypter
+09:16:13.269 [JavaFX Application Thread] INFO  model.calculate.RSA - Both the necrypter and decrypter are ready to use
+09:16:13.371 [JavaFX Application Thread] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+09:16:13.372 [JavaFX Application Thread] TRACE org.hibernate.jpa.HibernatePersistenceProvider - Starting createEntityManagerFactory for persistenceUnitName jpa-persistence-unit-1
+09:16:13.373 [JavaFX Application Thread] TRACE org.hibernate.jpa.HibernatePersistenceProvider - Attempting to obtain correct EntityManagerFactoryBuilder for persistenceUnitName : jpa-persistence-unit-1
+09:16:13.400 [JavaFX Application Thread] TRACE org.hibernate.jpa.boot.internal.PersistenceXmlParser - Attempting to parse persistence.xml file : file:/C:/Users/Lilieth/IdeaProjects/ProjectCalculator/target/classes/META-INF/persistence.xml
+09:16:13.453 [JavaFX Application Thread] TRACE org.hibernate.boot.archive.internal.ArchiveHelper - JAR URL from URL Entry: file:/C:/Users/Lilieth/IdeaProjects/ProjectCalculator/target/classes/META-INF/persistence.xml >> file:/C:/Users/Lilieth/IdeaProjects/ProjectCalculator/target/classes/
+09:16:13.455 [JavaFX Application Thread] TRACE org.hibernate.jpa.boot.internal.PersistenceXmlParser - Persistence unit name from persistence.xml : jpa-persistence-unit-1
+09:16:13.456 [JavaFX Application Thread] DEBUG org.hibernate.jpa.HibernatePersistenceProvider - Located and parsed 1 persistence units; checking each
+09:16:13.456 [JavaFX Application Thread] DEBUG org.hibernate.jpa.HibernatePersistenceProvider - Checking persistence-unit [name=jpa-persistence-unit-1, explicit-provider=org.hibernate.jpa.HibernatePersistenceProvider] against incoming persistence unit name [jpa-persistence-unit-1]
+09:16:13.457 [JavaFX Application Thread] DEBUG org.hibernate.jpa.boot.spi.ProviderChecker - Persistence-unit [jpa-persistence-unit-1] requested PersistenceProvider [org.hibernate.jpa.HibernatePersistenceProvider]
+09:16:13.457 [JavaFX Application Thread] TRACE org.hibernate.jpa.boot.spi.ProviderChecker - Checking requested PersistenceProvider name [org.hibernate.jpa.HibernatePersistenceProvider] against Hibernate provider names
+09:16:13.463 [JavaFX Application Thread] DEBUG org.hibernate.jpa.internal.util.LogHelper - PersistenceUnitInfo [
+	name: jpa-persistence-unit-1
+	persistence provider classname: org.hibernate.jpa.HibernatePersistenceProvider
+	classloader: null
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: null
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/Lilieth/IdeaProjects/ProjectCalculator/target/classes/
+	Shared Cache Mode: null
+	Validation Mode: null
+	Jar files URLs []
+	Managed classes names []
+	Mapping files names []
+	Properties [
+		javax.persistence.jdbc.driver: com.mysql.jdbc.Driver
+		javax.persistence.jdbc.password: Er4VQ0bHRN
+		javax.persistence.jdbc.url: jdbc:mysql://remotemysql.com:3306/IaJ5ocXHyI
+		javax.persistence.jdbc.user: IaJ5ocXHyI]
+09:16:13.468 [JavaFX Application Thread] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+09:16:13.470 [JavaFX Application Thread] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+09:16:13.473 [JavaFX Application Thread] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+09:16:13.481 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+09:16:13.483 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+09:16:13.483 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+09:16:13.484 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+09:16:13.484 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+09:16:13.485 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+09:16:13.486 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+09:16:13.486 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+09:16:13.487 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+09:16:13.488 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+09:16:13.494 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+09:16:13.495 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+09:16:13.496 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+09:16:13.497 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+09:16:13.500 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+09:16:13.501 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+09:16:13.502 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+09:16:13.502 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+09:16:13.503 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+09:16:13.503 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+09:16:13.503 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+09:16:13.504 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+09:16:13.504 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+09:16:13.505 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+09:16:13.506 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+09:16:13.506 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+09:16:13.507 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+09:16:13.507 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL8] -> [org.hibernate.dialect.MySQL8Dialect]
+09:16:13.508 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+09:16:13.510 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+09:16:13.510 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+09:16:13.511 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+09:16:13.512 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+09:16:13.513 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+09:16:13.513 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+09:16:13.513 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+09:16:13.513 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+09:16:13.514 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+09:16:13.515 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+09:16:13.515 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+09:16:13.515 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+09:16:13.516 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+09:16:13.516 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+09:16:13.517 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+09:16:13.518 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+09:16:13.518 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+09:16:13.519 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+09:16:13.520 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Atomikos] -> [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+09:16:13.520 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.AtomikosJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+09:16:13.520 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+09:16:13.521 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+09:16:13.521 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+09:16:13.521 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+09:16:13.522 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+09:16:13.523 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+09:16:13.523 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+09:16:13.523 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+09:16:13.523 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+09:16:13.524 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+09:16:13.525 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+09:16:13.525 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+09:16:13.525 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+09:16:13.525 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+09:16:13.526 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+09:16:13.526 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+09:16:13.526 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereLiberty] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+09:16:13.526 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+09:16:13.526 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+09:16:13.527 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+09:16:13.527 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+09:16:13.527 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+09:16:13.528 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+09:16:13.528 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+09:16:13.528 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+09:16:13.528 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+09:16:13.528 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+09:16:13.529 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+09:16:13.530 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+09:16:13.530 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+09:16:13.531 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+09:16:13.531 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+09:16:13.532 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+09:16:13.532 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+09:16:13.532 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+09:16:13.533 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+09:16:13.533 [JavaFX Application Thread] TRACE org.hibernate.boot.registry.selector.internal.StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+09:16:13.552 [JavaFX Application Thread] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+09:16:13.553 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+09:16:13.647 [JavaFX Application Thread] DEBUG org.hibernate.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+09:16:13.661 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+09:16:13.667 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+09:16:13.668 [JavaFX Application Thread] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+09:16:13.669 [JavaFX Application Thread] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+09:16:13.687 [JavaFX Application Thread] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+09:16:13.816 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1516caf1
+09:16:13.817 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1516caf1
+09:16:13.817 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1516caf1
+09:16:13.817 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@635fa754
+09:16:13.818 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@375e5f2d
+09:16:13.818 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@7f168640
+09:16:13.819 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5f0622da
+09:16:13.819 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@5f0622da
+09:16:13.819 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5f0622da
+09:16:13.820 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@73dacf41
+09:16:13.820 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@73dacf41
+09:16:13.820 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@73dacf41
+09:16:13.821 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d96c688
+09:16:13.821 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@7d96c688
+09:16:13.821 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@7d96c688
+09:16:13.822 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@8e25540
+09:16:13.822 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@8e25540
+09:16:13.823 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@8e25540
+09:16:13.823 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@14cb2d96
+09:16:13.824 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@14cb2d96
+09:16:13.824 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@14cb2d96
+09:16:13.824 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@67654704
+09:16:13.824 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@67654704
+09:16:13.825 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@67654704
+09:16:13.825 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@65be6ed0
+09:16:13.825 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@65be6ed0
+09:16:13.826 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@65be6ed0
+09:16:13.826 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@9eb49b2
+09:16:13.826 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@9eb49b2
+09:16:13.827 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@361b42ab
+09:16:13.827 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@361b42ab
+09:16:13.828 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@7ef90cbd
+09:16:13.828 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@7ef90cbd
+09:16:13.829 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@2a810f
+09:16:13.829 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@141006e0
+09:16:13.830 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@49d8980e
+09:16:13.830 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@49d8980e
+09:16:13.831 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@40518730
+09:16:13.831 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@40518730
+09:16:13.838 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@46f767c7
+09:16:13.838 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@46f767c7
+09:16:13.840 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@1c518d26
+09:16:13.840 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@1c518d26
+09:16:13.841 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7b6a8180
+09:16:13.841 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7b6a8180
+09:16:13.842 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6ee3e334
+09:16:13.842 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6ee3e334
+09:16:13.844 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62649806
+09:16:13.844 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@62649806
+09:16:13.845 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@136eca11
+09:16:13.845 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@136eca11
+09:16:13.847 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@750a3096
+09:16:13.847 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@750a3096
+09:16:13.848 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1ecba338
+09:16:13.848 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1ecba338
+09:16:13.849 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@1bbf1871
+09:16:13.849 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1bbf1871
+09:16:13.850 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@74cee63
+09:16:13.851 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@74cee63
+09:16:13.851 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@74cee63
+09:16:13.852 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5d8a7d52
+09:16:13.853 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@6e1efa8b
+09:16:13.853 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@6e1efa8b
+09:16:13.853 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@6e1efa8b
+09:16:13.853 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@298cdfd3
+09:16:13.854 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@75d0c3a6
+09:16:13.854 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@75d0c3a6
+09:16:13.855 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1105651a
+09:16:13.855 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1105651a
+09:16:13.856 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@71479e6e
+09:16:13.856 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@71479e6e
+09:16:13.857 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@1f20d461
+09:16:13.857 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1f20d461
+09:16:13.857 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@78975acc
+09:16:13.857 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@78975acc
+09:16:13.858 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1fc90cac
+09:16:13.858 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@24360686
+09:16:13.859 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@24360686
+09:16:13.859 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@24360686
+09:16:13.859 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@704d1d14
+09:16:13.860 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@704d1d14
+09:16:13.860 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@704d1d14
+09:16:13.860 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@5aa02033
+09:16:13.861 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@475bd84f
+09:16:13.861 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@2149093a
+09:16:13.861 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@2149093a
+09:16:13.862 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@2149093a
+09:16:13.862 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4d50f6b8
+09:16:13.862 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4d50f6b8
+09:16:13.862 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4d50f6b8
+09:16:13.863 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@2ca24fd5
+09:16:13.863 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@1b54af00
+09:16:13.864 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@46466072
+09:16:13.864 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@46466072
+09:16:13.865 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@268fc84b
+09:16:13.866 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@5187d9a
+09:16:13.866 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5187d9a
+09:16:13.867 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@6d0bd967
+09:16:13.867 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6d0bd967
+09:16:13.868 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@12131cd
+09:16:13.868 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@465c0326
+09:16:13.869 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@43ca24be
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@62f40936
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@62f40936
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@149c3762
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2403354f
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@484fe4ac
+09:16:13.872 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@72af635
+09:16:13.873 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@72f8f695
+09:16:13.873 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4fec0cc8
+09:16:13.873 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7831eb1d
+09:16:13.873 [JavaFX Application Thread] DEBUG org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@28fa3170
+09:16:13.881 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+09:16:13.882 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@50c31918] into BootstrapContext; was [null]
+09:16:13.883 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@38106890] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5e0905b8]
+09:16:13.923 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.BootstrapContextImpl - Injecting JPA temp ClassLoader [null] into BootstrapContext; was [null]
+09:16:13.923 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - ClassLoaderAccessImpl#injectTempClassLoader(null) [was null]
+09:16:13.931 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+09:16:13.933 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+09:16:13.933 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+09:16:13.934 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+09:16:13.934 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+09:16:13.935 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+09:16:13.938 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+09:16:13.938 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+09:16:13.939 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+09:16:13.940 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+09:16:13.941 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+09:16:13.941 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+09:16:13.942 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+09:16:13.942 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+09:16:13.943 [JavaFX Application Thread] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+09:16:13.943 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+09:16:13.943 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+09:16:13.944 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+09:16:13.945 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+09:16:13.948 [JavaFX Application Thread] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+09:16:13.955 [JavaFX Application Thread] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://remotemysql.com:3306/IaJ5ocXHyI]
+09:16:13.955 [JavaFX Application Thread] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=Er4VQ0bHRN, user=IaJ5ocXHyI}
+09:16:13.956 [JavaFX Application Thread] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+09:16:13.958 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+09:16:13.958 [JavaFX Application Thread] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+09:16:15.025 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.13-4
+      major : 8
+      minor : 0
+09:16:15.025 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )
+      major : 5
+      minor : 1
+09:16:15.025 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator - JDBC version : 4.0
+09:16:15.075 [JavaFX Application Thread] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:16:15.101 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+09:16:15.105 [JavaFX Application Thread] DEBUG org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+09:16:15.131 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [IaJ5ocXHyI]
+09:16:15.131 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+09:16:15.181 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+09:16:15.189 [JavaFX Application Thread] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+09:16:15.196 [JavaFX Application Thread] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@46d14ca1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4c29965a]
+09:16:15.275 [JavaFX Application Thread] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: model.archive.Archive
+09:16:15.295 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+09:16:15.295 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+09:16:15.299 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Archive
+09:16:15.299 [JavaFX Application Thread] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: Archive -> model.archive.Archive
+09:16:15.299 [JavaFX Application Thread] TRACE org.hibernate.boot.internal.InFlightMetadataCollectorImpl - Import: model.archive.Archive -> model.archive.Archive
+09:16:15.300 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [Useage]
+09:16:15.301 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [Useage]
+09:16:15.304 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity model.archive.Archive on table Useage
+09:16:15.321 [JavaFX Application Thread] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of model.archive.Archive.id
+09:16:15.325 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+09:16:15.325 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+09:16:15.325 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Useage), mappingColumn=id, insertable=true, updatable=true, unique=false}
+09:16:15.328 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+09:16:15.330 [JavaFX Application Thread] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.archive.Archive:id]
+09:16:15.333 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+09:16:15.334 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+09:16:15.335 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+09:16:15.335 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+09:16:15.336 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
+09:16:15.338 [JavaFX Application Thread] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading id with null
+09:16:15.339 [JavaFX Application Thread] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+09:16:15.339 [JavaFX Application Thread] TRACE org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+09:16:15.339 [JavaFX Application Thread] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of model.archive.Archive.time
+09:16:15.339 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [time]
+09:16:15.339 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [time]
+09:16:15.340 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Useage), mappingColumn=time, insertable=true, updatable=true, unique=false}
+09:16:15.340 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property time with lazy=false
+09:16:15.340 [JavaFX Application Thread] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.archive.Archive:time]
+09:16:15.340 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for time
+09:16:15.340 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [time]
+09:16:15.340 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [time]
+09:16:15.340 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [time]
+09:16:15.340 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property time
+09:16:15.341 [JavaFX Application Thread] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading time with null
+09:16:15.341 [JavaFX Application Thread] TRACE org.hibernate.cfg.AnnotationBinder - Processing annotations of model.archive.Archive.type
+09:16:15.341 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [type]
+09:16:15.341 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [type]
+09:16:15.341 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Useage), mappingColumn=type, insertable=true, updatable=true, unique=false}
+09:16:15.341 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property type with lazy=false
+09:16:15.341 [JavaFX Application Thread] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [model.archive.Archive:type]
+09:16:15.342 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for type
+09:16:15.342 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [type]
+09:16:15.342 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [type]
+09:16:15.342 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.env.internal.NormalizingIdentifierHelperImpl - Normalizing identifier quoting [type]
+09:16:15.342 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property type
+09:16:15.342 [JavaFX Application Thread] TRACE org.hibernate.cfg.annotations.PropertyBinder - Cascading type with null
+09:16:15.343 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+09:16:15.344 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for time
+09:16:15.344 [JavaFX Application Thread] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - Starting fillSimpleValue for type
+09:16:15.345 [JavaFX Application Thread] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [useage]
+09:16:15.358 [JavaFX Application Thread] TRACE org.hibernate.loader.BatchFetchStyle - Interpreting BatchFetchStyle from setting : null
+09:16:15.360 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+09:16:15.371 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryImpl - Building session factory
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+09:16:15.372 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+09:16:15.373 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : 
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : 
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : 
+09:16:15.374 [JavaFX Application Thread] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : 
+09:16:15.374 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+09:16:15.380 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+09:16:15.414 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+09:16:15.420 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+09:16:15.430 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+09:16:15.430 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, java.specification.version=11, javafx.runtime.version=12+14, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, java.class.path=C:\Users\Lilieth\IdeaProjects\ProjectCalculator\target\classes;C:\Users\Lilieth\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\Lilieth\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.11.2\log4j-slf4j-impl-2.11.2.jar;C:\Users\Lilieth\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\Lilieth\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.2\log4j-core-2.11.2.jar;C:\Users\Lilieth\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.2.Final\hibernate-entitymanager-5.4.2.Final.jar;C:\Users\Lilieth\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Lilieth\.m2\repository\org\hibernate\hibernate-core\5.4.2.Final\hibernate-core-5.4.2.Final.jar;C:\Users\Lilieth\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\Lilieth\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Lilieth\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\Lilieth\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Lilieth\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Lilieth\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\Lilieth\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\Lilieth\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\Lilieth\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\Lilieth\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\Lilieth\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\Lilieth\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\Lilieth\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\Lilieth\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\Lilieth\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\Lilieth\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.16.Final\hibernate-validator-6.0.16.Final.jar;C:\Users\Lilieth\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Lilieth\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\Lilieth\.m2\repository\org\glassfish\javax.el\3.0.1-b11\javax.el-3.0.1-b11.jar;C:\Users\Lilieth\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2.jar;C:\Users\Lilieth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Lilieth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Lilieth\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\Users\Lilieth\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lilieth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Lilieth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Lilieth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Lilieth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Lilieth\.m2\repository\com\google\inject\extensions\guice-persist\4.2.2\guice-persist-4.2.2.jar;C:\Users\Lilieth\.m2\repository\com\h2database\h2\1.4.199\h2-1.4.199.jar;C:\Users\Lilieth\.m2\repository\org\projectlombok\lombok\1.18.6\lombok-1.18.6.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2-win.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-fxml\11.0.2\javafx-fxml-11.0.2.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-fxml\11.0.2\javafx-fxml-11.0.2-win.jar;C:\Users\Lilieth\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Lilieth\.m2\repository\mysql\mysql-connector-java\5.1.46\mysql-connector-java-5.1.46.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-graphics\12\javafx-graphics-12.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-graphics\12\javafx-graphics-12-win.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-base\12\javafx-base-12.jar;C:\Users\Lilieth\.m2\repository\org\openjfx\javafx-base\12\javafx-base-12-win.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, java.vendor.url=http://java.oracle.com/, user.timezone=Europe/Prague, javax.persistence.jdbc.url=jdbc:mysql://remotemysql.com:3306/IaJ5ocXHyI, javax.persistence.jdbc.user=****, os.name=Windows 10, java.vm.specification.version=11, javafx.version=12, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=C:\Program Files\Java\jdk-11.0.2\bin, sun.java.command=control.Main, jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Lilieth, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2019-01-15, java.home=C:\Program Files\Java\jdk-11.0.2, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, javax.persistence.jdbc.driver=com.mysql.jdbc.Driver, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.2+9-LTS, user.name=Lilieth, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://remotemysql.com:3306/IaJ5ocXHyI, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=jpa-persistence-unit-1, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, java.vendor.version=18.9, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.java.com/bugreport/, java.io.tmpdir=C:\Users\Lilieth\AppData\Local\Temp\, java.version=11.0.2, user.dir=C:\Users\Lilieth\IdeaProjects\ProjectCalculator, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, hibernate.connection.password=****, sun.os.patch.level=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@44c75500, java.library.path=C:\Program Files\Java\jdk-11.0.2\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Polyspace\R2019a\runtime\win64;C:\Program Files\Polyspace\R2019a\bin;C:\Program Files\Polyspace\R2019a\polyspace\bin;C:\Users\Lilieth\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\bin;C:\mvn\apache-maven-3.6.0\bin;C:\Program Files\Java\jdk-11.0.2\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=11.0.2+9-LTS, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, javax.persistence.jdbc.password=****, java.class.version=55.0}
+09:16:15.436 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+09:16:15.456 [JavaFX Application Thread] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.16.Final
+09:16:15.463 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+09:16:15.464 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+09:16:15.466 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+09:16:15.467 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+09:16:15.468 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+09:16:15.468 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+09:16:15.600 [JavaFX Application Thread] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+09:16:15.606 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+09:16:15.606 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+09:16:15.607 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+09:16:15.607 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+09:16:15.607 [JavaFX Application Thread] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+09:16:15.608 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.archive.Archive] is safe
+09:16:15.608 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.archive.Archive
+09:16:15.676 [JavaFX Application Thread] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+09:16:15.676 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
+09:16:15.676 [JavaFX Application Thread] DEBUG org.hibernate.type.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@46d14ca1] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7023c564]
+09:16:15.684 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+09:16:15.686 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+09:16:15.708 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+09:16:15.710 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.archive.Archive] is safe
+09:16:15.710 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.archive.Archive
+09:16:15.724 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [model.archive.Archive] is safe
+09:16:15.724 [JavaFX Application Thread] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.archive.Archive
+09:16:15.922 [JavaFX Application Thread] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [time], existing type = [org.hibernate.type.StringType@7ef90cbd], incoming type = [org.hibernate.type.StringType@7ef90cbd]
+09:16:15.922 [JavaFX Application Thread] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [type], existing type = [org.hibernate.type.StringType@7ef90cbd], incoming type = [org.hibernate.type.StringType@7ef90cbd]
+09:16:15.923 [JavaFX Application Thread] TRACE org.hibernate.persister.entity.AbstractPropertyMapping - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.LongType@14cb2d96], incoming type = [org.hibernate.type.LongType@14cb2d96]
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: model.archive.Archive
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from Useage where id =?
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select archive_.id, archive_.time as time2_0_, archive_.type as type3_0_ from Useage archive_ where archive_.id=?
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Useage (time, type, id) values (?, ?, ?)
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Useage set time=?, type=? where id=?
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Useage where id=?
+09:16:15.928 [JavaFX Application Thread] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into Useage (time, type) values (?, ?)
+09:16:15.944 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : model.archive.Archive
+09:16:15.949 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74e0fa58]
+09:16:15.949 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5ab3ca4a
+09:16:15.950 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=Useage, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5ab3ca4a
+09:16:15.950 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : model.archive.Archive
+09:16:15.950 [JavaFX Application Thread] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : time
+09:16:15.950 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=time, type=string [non-identifier])
+09:16:15.950 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=time, type=string [non-identifier])
+09:16:15.951 [JavaFX Application Thread] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : type
+09:16:15.951 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=type, type=string [non-identifier])
+09:16:15.951 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=type, type=string [non-identifier])
+09:16:15.951 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5ab3ca4a
+09:16:15.951 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : model.archive.Archive
+09:16:15.951 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+09:16:15.962 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+09:16:15.965 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=model.archive.Archive)
+    - Returns
+       - EntityReturnImpl(entity=model.archive.Archive, querySpaceUid=<gen:0>, path=model.archive.Archive)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.archive.Archive)
+          - SQL table alias mapping - archive0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+09:16:15.967 [JavaFX Application Thread] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity model.archive.Archive [NONE]: select archive0_.id as id1_0_0_, archive0_.time as time2_0_0_, archive0_.type as type3_0_0_ from Useage archive0_ where archive0_.id=?
+09:16:15.967 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy -  Starting root entity : model.archive.Archive
+09:16:15.967 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f7a4c12]
+09:16:15.967 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5023fe42
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - .. Registering AssociationKey : AssociationKey(table=Useage, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5023fe42
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting entity identifier : model.archive.Archive
+09:16:15.968 [JavaFX Application Thread] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : time
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=time, type=string [non-identifier])
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=time, type=string [non-identifier])
+09:16:15.968 [JavaFX Application Thread] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : type
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - >> Starting attribute Attribute(name=type, type=string [non-identifier])
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - << Finishing up attribute : Attribute(name=type, type=string [non-identifier])
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@5023fe42
+09:16:15.968 [JavaFX Application Thread] TRACE org.hibernate.loader.plan.build.internal.AbstractLoadPlanBuildingAssociationVisitationStrategy -  Finished root entity : model.archive.Archive
+09:16:15.968 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+09:16:15.968 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+09:16:15.969 [JavaFX Application Thread] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=model.archive.Archive)
+    - Returns
+       - EntityReturnImpl(entity=model.archive.Archive, querySpaceUid=<gen:0>, path=model.archive.Archive)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.archive.Archive)
+          - SQL table alias mapping - archive0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+09:16:15.969 [JavaFX Application Thread] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity model.archive.Archive [READ]: select archive0_.id as id1_0_0_, archive0_.time as time2_0_0_, archive0_.type as type3_0_0_ from Useage archive0_ where archive0_.id=?
+09:16:15.989 [JavaFX Application Thread] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity model.archive.Archive: select archive0_.id as id1_0_0_, archive0_.time as time2_0_0_, archive0_.type as type3_0_0_ from Useage archive0_ where archive0_.id=?
+09:16:15.989 [JavaFX Application Thread] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity model.archive.Archive: select archive0_.id as id1_0_0_, archive0_.time as time2_0_0_, archive0_.type as type3_0_0_ from Useage archive0_ where archive0_.id=?
+09:16:16.003 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.MetadataContext - Wrapping up metadata context...
+09:16:16.003 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.MetadataContext - Starting entity [model.archive.Archive]
+09:16:16.003 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building identifier attribute [Archive.id]
+09:16:16.004 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [id]
+09:16:16.004 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.Long model.archive.Archive.id]
+09:16:16.004 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=long, class=org.hibernate.type.LongType]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [Archive.time]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [time]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String model.archive.Archive.time]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.StringType]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Building attribute [Archive.type]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory - Starting attribute metadata determination [type]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined member [private java.lang.String model.archive.Archive.type]
+09:16:16.015 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.AttributeFactory -     Determined type [name=string, class=org.hibernate.type.StringType]
+09:16:16.016 [JavaFX Application Thread] TRACE org.hibernate.metamodel.internal.MetadataContext - Completed entity [model.archive.Archive]
+09:16:16.020 [JavaFX Application Thread] DEBUG org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator - No actions specified; doing nothing
+09:16:16.020 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+09:16:16.020 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+09:16:16.020 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+09:16:16.021 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+09:16:16.025 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:16:16.025 [JavaFX Application Thread] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:16:16.026 [JavaFX Application Thread] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named HQL queries
+09:16:16.026 [JavaFX Application Thread] DEBUG org.hibernate.query.spi.NamedQueryRepository - Checking 0 named SQL queries
+09:16:16.026 [JavaFX Application Thread] TRACE org.hibernate.type.spi.TypeConfiguration$Scope - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@7023c564] for TypeConfiguration
+09:16:16.027 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@53c7e2ee
+09:16:16.027 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+09:16:16.029 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryRegistry - Registering SessionFactory: 3ddbb967-45fc-45bb-8029-b1784193cee7 (<unnamed>)
+09:16:16.029 [JavaFX Application Thread] DEBUG org.hibernate.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+09:16:16.032 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionFactoryImpl$SessionBuilderImpl - Opening Hibernate Session.  tenant=null, owner=null
+09:16:16.089 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+09:16:16.093 [JavaFX Application Thread] DEBUG org.hibernate.stat.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+09:16:16.096 [JavaFX Application Thread] TRACE org.hibernate.service.internal.AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.jmx.spi.JmxService]
+09:16:16.098 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionImpl - Opened Session [110f6e80-94ce-47b3-82bf-b61e0f176925] at timestamp: 1557818176063
+09:16:16.101 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+09:16:16.101 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - begin
+09:16:16.135 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+09:16:16.167 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - Transaction begun via JDBC Connection.setAutoCommit(false)
+09:16:16.167 [JavaFX Application Thread] TRACE org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+09:16:16.170 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractSaveEventListener - Transient instance of: model.archive.Archive
+09:16:16.170 [JavaFX Application Thread] TRACE org.hibernate.event.internal.DefaultPersistEventListener - Saving transient instance
+09:16:16.172 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractSaveEventListener - Saving [model.archive.Archive#<null>]
+09:16:16.178 [JavaFX Application Thread] TRACE org.hibernate.engine.spi.ActionQueue - Adding an EntityIdentityInsertAction for [model.archive.Archive] object
+09:16:16.179 [JavaFX Application Thread] TRACE org.hibernate.engine.spi.ActionQueue - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[model.archive.Archive#<null>]]
+09:16:16.180 [JavaFX Application Thread] TRACE org.hibernate.engine.spi.ActionQueue - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[model.archive.Archive#<null>]]
+09:16:16.180 [JavaFX Application Thread] TRACE org.hibernate.engine.spi.ActionQueue - Executing insertions before resolved early-insert
+09:16:16.180 [JavaFX Application Thread] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+09:16:16.185 [JavaFX Application Thread] TRACE org.hibernate.persister.entity.AbstractEntityPersister - Inserting entity: model.archive.Archive (native id)
+09:16:16.189 [JavaFX Application Thread] DEBUG org.hibernate.SQL - insert into Useage (time, type) values (?, ?)
+09:16:16.200 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Registering statement [com.mysql.jdbc.JDBC42PreparedStatement@d50842b: insert into Useage (time, type) values (** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+09:16:16.200 [JavaFX Application Thread] TRACE org.hibernate.persister.entity.AbstractEntityPersister - Dehydrating entity: [model.archive.Archive#<null>]
+09:16:16.204 [JavaFX Application Thread] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [1557818173350]
+09:16:16.204 [JavaFX Application Thread] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [RSA]
+09:16:16.244 [JavaFX Application Thread] DEBUG org.hibernate.id.IdentifierGeneratorHelper - Natively generated identity: 60
+09:16:16.244 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing result set [com.mysql.jdbc.JDBC42ResultSet@c5f75e9]
+09:16:16.244 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Closing result set [com.mysql.jdbc.JDBC42ResultSet@c5f75e9]
+09:16:16.244 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing statement [com.mysql.jdbc.JDBC42PreparedStatement@d50842b: insert into Useage (time, type) values ('1557818173350', 'RSA')]
+09:16:16.244 [JavaFX Application Thread] DEBUG org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+09:16:16.244 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Closing prepared statement [com.mysql.jdbc.JDBC42PreparedStatement@d50842b: insert into Useage (time, type) values ('1557818173350', 'RSA')]
+09:16:16.244 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl - Starting after statement execution processing [AFTER_TRANSACTION]
+09:16:16.246 [JavaFX Application Thread] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
+09:16:16.246 [JavaFX Application Thread] TRACE org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+09:16:16.251 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionImpl - SessionImpl#beforeTransactionCompletion()
+09:16:16.252 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionImpl - Automatically flushing session
+09:16:16.252 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Flushing session
+09:16:16.252 [JavaFX Application Thread] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Processing flush-time cascades
+09:16:16.253 [JavaFX Application Thread] TRACE org.hibernate.engine.internal.Cascade - Processing cascade ACTION_PERSIST_ON_FLUSH for: model.archive.Archive
+09:16:16.253 [JavaFX Application Thread] TRACE org.hibernate.engine.internal.Cascade - Done processing cascade ACTION_PERSIST_ON_FLUSH for: model.archive.Archive
+09:16:16.253 [JavaFX Application Thread] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Dirty checking collections
+09:16:16.253 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Flushing entities and processing referenced collections
+09:16:16.255 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Processing unreferenced collections
+09:16:16.255 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Scheduling collection removes/(re)creates/updates
+09:16:16.255 [JavaFX Application Thread] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+09:16:16.255 [JavaFX Application Thread] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+09:16:16.257 [JavaFX Application Thread] DEBUG org.hibernate.internal.util.EntityPrinter - Listing entities:
+09:16:16.257 [JavaFX Application Thread] DEBUG org.hibernate.internal.util.EntityPrinter - model.archive.Archive{id=60, time=1557818173350, type=RSA}
+09:16:16.258 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Executing flush
+09:16:16.258 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl - Starting after statement execution processing [AFTER_TRANSACTION]
+09:16:16.258 [JavaFX Application Thread] TRACE org.hibernate.event.internal.AbstractFlushingEventListener - Post flush
+09:16:16.259 [JavaFX Application Thread] TRACE org.hibernate.resource.transaction.internal.SynchronizationRegistryStandardImpl - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+09:16:16.259 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - Preparing to commit transaction via JDBC Connection.commit()
+09:16:16.299 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - Transaction committed via JDBC Connection.commit()
+09:16:16.299 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - LogicalConnection#afterTransaction
+09:16:16.299 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing JDBC resources
+09:16:16.300 [JavaFX Application Thread] DEBUG org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+09:16:16.334 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing JDBC resources
+09:16:16.334 [JavaFX Application Thread] TRACE org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+09:16:16.334 [JavaFX Application Thread] TRACE org.hibernate.resource.transaction.internal.SynchronizationRegistryStandardImpl - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+09:16:16.334 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.AbstractLogicalConnectionImplementor - LogicalConnection#afterTransaction
+09:16:16.334 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing JDBC resources
+09:16:16.334 [JavaFX Application Thread] DEBUG org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionImpl - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.internal.SessionImpl - Closing session [110f6e80-94ce-47b3-82bf-b61e0f176925]
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@5011a80]
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl - Releasing JDBC resources
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Closing logical connection
+09:16:16.335 [JavaFX Application Thread] TRACE org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl - Logical connection closed
+09:16:44.990 [Hibernate Connection Pool Validation Thread] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - Connection pool now considered primed; min-size will be maintained
