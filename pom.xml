@@ -25,7 +25,7 @@
     </description>
     <scm>
         <url>https://github.com/danidd2/Project-Calculator</url>
-        <connection>scm:git//github.com/danidd2/Project-Calculator</connection>
+        <connection>scm:git://github.com/danidd2/Project-Calculator</connection>
         <developerConnection>scm:git:git@github.com/danidd2/Project-Calculator</developerConnection>
     </scm>
     <dependencies>

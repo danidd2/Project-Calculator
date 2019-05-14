@@ -171,7 +171,15 @@ public class RSA
         return temp;
     }
 
-    private BigInteger chichinese(BigInteger p, BigInteger q,BigInteger massage,BigInteger decrypter)
+    /**
+     * Decrypts a {@code massage} with the chinese remain algorithm.
+     * @param p first prime
+     * @param q second prime
+     * @param massage the massage to be decrypted
+     * @param decrypter the decrypter
+     * @return the decrypted massage
+     */
+    private BigInteger chinese(BigInteger p, BigInteger q,BigInteger massage,BigInteger decrypter)
     {
         BigInteger ret;
         BigInteger c1 = modPower.modpower(massage,decrypter.mod(p.mod(p.subtract(BigInteger.ONE))),p);
