@@ -29,5 +29,11 @@ public class RSATest {
         String words[] = lines[lines.length-1].split(" ");
         String result = words[words.length-1];
         assertEquals(masage,result);
+        masage ="98765432112345678";
+         temp = rsa.rsaCore(masage);
+        String lines1[] = temp.split("\\r?\\n");
+        String words1[] = lines1[lines.length-1].split(" ");
+        result = words1[words1.length-1];
+        assertEquals(masage,result);
     }
 }

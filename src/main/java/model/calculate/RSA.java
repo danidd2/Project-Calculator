@@ -52,6 +52,7 @@ public class RSA
 
         BigInteger encryptedMassage = encrypt(massage,encrypter,n);
         BigInteger decryptedMassage = decrypter(encryptedMassage,decrypter,n);
+        BigInteger cineseReturn = chinese(prime1,prime2,encryptedMassage,decrypter);
 
         String ret = "First prime is " + prime1 + "\n" +
                     "Second prime is " + prime2 + "\n" +
@@ -59,7 +60,8 @@ public class RSA
                     "The decrypter is " + decrypter + "\n"+
                     "The original massage is " + massage + "\n" +
                     "The encrypted massage is " + encryptedMassage + "\n" +
-                    "The decrypted massage is " + decryptedMassage + "\n";
+                    "The decrypted massage is " + decryptedMassage + "\n" +
+                    "The chines decrypted massage is " + cineseReturn;
         return ret;
     }
 
@@ -181,16 +183,18 @@ public class RSA
      */
     private BigInteger chinese(BigInteger p, BigInteger q,BigInteger massage,BigInteger decrypter)
     {
-        BigInteger ret;
-        BigInteger c1 = modPower.modpower(massage,decrypter.mod(p.mod(p.subtract(BigInteger.ONE))),p);
-        BigInteger c2 = modPower.modpower(massage,decrypter.mod(q.mod(q.subtract(BigInteger.ONE))),q);
+        BigInteger c1 = modPower.modpower(massage,decrypter.mod(p.subtract(BigInteger.valueOf(1))),p);
+        BigInteger c2 = modPower.modpower(massage,decrypter.mod(q.subtract(BigInteger.valueOf(1))),q);
         BigInteger M = p.multiply(q);
         BigInteger M1 = q;
         BigInteger M2 = p;
-        Eucledes result  = eucledes.calculate(q,p);
-        BigInteger y1 = result.getX();
-        BigInteger y2 = result.getX();
-        ret = c1.multiply(y1).multiply(M1).add(c2.multiply(y2).multiply(M2).mod(M));
-        return ret;
+        Eucledes calc = new Eucledes();
+        Eucledes euclid = calc.calculate(q,p);
+        BigInteger y1 = euclid.getX();
+        BigInteger y2 = euclid.getY();
+
+        BigInteger m = c1.multiply(y1).multiply(M1).add(c2.multiply(y2).multiply(M2)).mod(M);
+
+        return m;
     }
 }

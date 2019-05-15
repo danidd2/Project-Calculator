@@ -1,5 +1,6 @@
 package control;
 
+import lombok.extern.slf4j.Slf4j;
 import model.archive.Archive;
 
 import javax.persistence.EntityManager;
@@ -8,9 +9,11 @@ import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
+
 /**
  * Controls the data flow between the program and the online database.
  */
+@Slf4j
 public class ComControll
 {
     /**
@@ -69,6 +72,7 @@ public class ComControll
         entityManager.getTransaction().begin();
         entityManager.persist(output);
         entityManager.getTransaction().commit();
+        log.info("A new registry was uploaded to the database");
     }
 
     /**

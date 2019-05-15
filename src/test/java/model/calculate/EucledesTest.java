@@ -17,5 +17,20 @@ public class EucledesTest {
         BigInteger b = BigInteger.ONE;
         assertEquals(a,test.getY());
         assertEquals(b,test.getX());
+        test = calculator.calculate(BigInteger.valueOf(123),BigInteger.valueOf(321));
+         a = BigInteger.valueOf(-18);
+         b = BigInteger.valueOf(47);
+        assertEquals(a,test.getY());
+        assertEquals(b,test.getX());
+        test = calculator.calculate(BigInteger.valueOf(1998),BigInteger.valueOf(8));
+        a = BigInteger.valueOf(250);
+        b = BigInteger.valueOf(-1);
+        assertEquals(a,test.getY());
+        assertEquals(b,test.getX());
+        test = calculator.calculate(BigInteger.valueOf(8),BigInteger.valueOf(28));
+        a = BigInteger.valueOf(1);
+        b = BigInteger.valueOf(-3);
+        assertEquals(a,test.getY());
+        assertEquals(b,test.getX());
     }
 }

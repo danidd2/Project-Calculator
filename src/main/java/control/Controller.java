@@ -124,14 +124,14 @@ public class Controller
         {
             if (primeTextFiled.getText().isEmpty()) {
                 resultText.setText("You have to insert a positive number!");
-                log.error("The text filed is empty");
+                log.error("The user inserted an unacceptable input ");
             }
             else
             {
                 if (!stringCheck(primeTextFiled.getText()))
                 {
                     resultText.setText("You must insert a positive round number");
-                    log.error("The text filed contains unacceptable elements");
+                    log.error("The user inserted an unacceptable input ");
                 }
                 else
                 { RSA rsa = new RSA();
@@ -163,11 +163,15 @@ public class Controller
             if (!stringCheck(primeTextFiled.getText()))
             {
                 resultText.setText("You must insert a positive round number");
+                log.error("The user inserted an unacceptable input ");
+
             }
             else
             {
                 if (primeTextFiled.getText().isEmpty()) {
                     resultText.setText("You have to insert a positive number!");
+                    log.error("The user inserted an unacceptable input ");
+
                 } else {
                     Prime prime = new Prime();
                     BigInteger number = new BigInteger(primeTextFiled.getText());
@@ -200,12 +204,14 @@ public class Controller
         if (!stringCheck(eucledesX.getText()) || !stringCheck(eucledesY.getText()))
         {
             resultText.setText("You must enter positive round numbers");
+            log.error("The user inserted an unacceptable input ");
         }
         else
         {
             if (eucledesX.getText().isEmpty() || eucledesY.getText().isEmpty())
             {
                 resultText.setText("Something is empty!");
+                log.error("The user inserted an unacceptable input ");
             }
             else
             {
@@ -255,12 +261,14 @@ public class Controller
         if (!stringCheck(massageBox.getText()))
         {
             resultText.setText("You must enter a positive round number");
+            log.error("The user inserted an unacceptable input ");
         }
         else
         {
             if (massageBox.getText().isEmpty())
             {
                 resultText.setText("You are trying to encrypt and empty massage!");
+                log.error("The user inserted an unacceptable input ");
             }
             else
             {

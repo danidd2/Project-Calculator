@@ -12,8 +12,16 @@ public class PrimeTest {
     void isPrime()
     {
         Prime calculator = new Prime();
-        assertEquals(true,calculator.isPrime(BigInteger.valueOf(7)));
-        assertEquals(false,calculator.isPrime(BigInteger.valueOf(58)));
+        BigInteger[] primes ={new BigInteger("7"), new BigInteger("11"),new BigInteger("17"),new BigInteger("31")};
+        BigInteger[] notprimes = {new BigInteger("8"),new BigInteger("33"),new BigInteger("49"),new BigInteger("91")};
+        for(BigInteger p : primes)
+        {
+            assertEquals(true,calculator.isPrime(p));
+        }
+        for (BigInteger p : notprimes)
+        {
+            assertEquals(false,calculator.isPrime(p));
+        }
     }
 
     @Test
@@ -32,6 +40,21 @@ public class PrimeTest {
         BigInteger first  = new BigInteger("12312312312312312");
         BigInteger second = new BigInteger("332131231231232131");
         assertEquals(BigInteger.ONE,prime.gcd(first,second));
+        first  = new BigInteger("7");
+        second = new BigInteger("5");
+        assertEquals(BigInteger.ONE,prime.gcd(first,second));
+        first  = new BigInteger("33");
+        second = new BigInteger("11");
+        assertEquals(BigInteger.valueOf(11),prime.gcd(first,second));
+        first  = new BigInteger("12");
+        second = new BigInteger("6");
+        assertEquals(BigInteger.valueOf(6),prime.gcd(first,second));
+        first  = new BigInteger("57");
+        second = new BigInteger("13");
+        assertEquals(BigInteger.ONE,prime.gcd(first,second));
+        first  = new BigInteger("112");
+        second = new BigInteger("60");
+        assertEquals(BigInteger.valueOf(4),prime.gcd(first,second));
     }
 
     @Test
@@ -40,6 +63,9 @@ public class PrimeTest {
         Prime calculator = new Prime();
         BigInteger test  = new BigInteger("32544");
         int expected = 5;
+        assertEquals(expected,calculator.getS(test));
+        test = new BigInteger("12");
+        expected = 2;
         assertEquals(expected,calculator.getS(test));
     }
 
